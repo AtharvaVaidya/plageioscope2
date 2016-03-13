@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5758EC5123F5BE6338FECF9B /* Pods_LifenestPlagiocephalyAwarenessTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B520B9EA2FF6C9327835465 /* Pods_LifenestPlagiocephalyAwarenessTest.framework */; };
+		814C3ACA1B69877600E307BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC61B69877600E307BB /* Main.storyboard */; };
+		814C3ACB1B69877600E307BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC81B69877600E307BB /* Images.xcassets */; };
+		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
+		81BA81701A49DB6800E65899 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816B1A49DB6800E65899 /* Bolts.framework */; };
+		81BA81711A49DB6800E65899 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816C1A49DB6800E65899 /* Parse.framework */; };
+		81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81761A49E0D500E65899 /* libsqlite3.dylib */; };
+		81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
+		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
+		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
+		8F0C1A801C68F02800EA8CC5 /* InitialDisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C1A7F1C68F02800EA8CC5 /* InitialDisclaimerViewController.swift */; };
+		8F0C1A821C6920BB00EA8CC5 /* CranialIndexP2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C1A811C6920BB00EA8CC5 /* CranialIndexP2ViewController.swift */; };
+		8F0C26541BF3FE1F00B9D224 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C26531BF3FE1F00B9D224 /* DisclaimerViewController.swift */; };
+		8F0C26561BF4070E00B9D224 /* NormocephalyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C26551BF4070E00B9D224 /* NormocephalyViewController.swift */; };
+		8F1321B01BF4215200BE7EA4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1321AF1BF4215200BE7EA4 /* MessageUI.framework */; };
+		8F4B9DCA1BE6C2BF0031A41E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DC91BE6C2BF0031A41E /* InitialViewController.swift */; };
+		8F4B9DD01BE70E130031A41E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DCF1BE70E130031A41E /* StartViewController.swift */; };
+		8F4B9DD21BE813190031A41E /* contactUsWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DD11BE813190031A41E /* contactUsWebsiteViewController.swift */; };
+		8F4B9DD41BE842250031A41E /* MainInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DD31BE842250031A41E /* MainInstructionsViewController.swift */; };
+		8F4B9DE01BECBBC80031A41E /* CVAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DDF1BECBBC80031A41E /* CVAIViewController.swift */; };
+		8F4B9DE21BED75AF0031A41E /* CVAIPart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B9DE11BED75AF0031A41E /* CVAIPart2ViewController.swift */; };
+		8F666B9F1BAE0C4000960DC7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B9E1BAE0C4000960DC7 /* SignUpViewController.swift */; };
+		8FB9D37A1BF40DB0005CB3F9 /* CustomerInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9D3791BF40DB0005CB3F9 /* CustomerInformationViewController.swift */; };
+		8FF3F9CE1BC9F6D4005D41AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3F9CD1BC9F6D4005D41AC /* LoginViewController.swift */; };
+		8FF3F9D01BCB53EF005D41AC /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3F9CF1BCB53EF005D41AC /* TakePictureViewController.swift */; };
+		8FF3F9D41BCB721C005D41AC /* ImageManipulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3F9D31BCB721C005D41AC /* ImageManipulator.swift */; };
+		8FF3F9D61BCB8ECA005D41AC /* CameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF3F9D51BCB8ECA005D41AC /* CameraOverlayView.xib */; };
+		8FF3F9D81BCBB74D005D41AC /* CranialIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3F9D71BCBB74D005D41AC /* CranialIndexViewController.swift */; };
+		8FF7B3FA1C95E050007032DF /* BuyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B3F91C95E050007032DF /* BuyNowViewController.swift */; };
+		EC60FA4C1C9123F800810FAD /* UncoveredContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60FA4B1C9123F800810FAD /* UncoveredContentViewController.swift */; };
+		EC6A58901C6B178000C95FF9 /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A588F1C6B178000C95FF9 /* LegalViewController.swift */; };
+		EC6FDA9A1C69D77800DD300C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FDA991C69D77800DD300C /* CustomTextField.swift */; };
+		EC9D8F321C6EAFCE00D6416F /* CustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9D8F311C6EAFCE00D6416F /* CustomVC.swift */; };
+		EC9D8F421C6F0F2700D6416F /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F3E1C6F0F2700D6416F /* Bitmap.png */; };
+		EC9D8F431C6F0F2700D6416F /* BreathabilityBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F3F1C6F0F2700D6416F /* BreathabilityBlue.png */; };
+		EC9D8F441C6F0F2700D6416F /* Img1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F401C6F0F2700D6416F /* Img1.png */; };
+		EC9D8F451C6F0F2700D6416F /* SoftAndComfortable.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F411C6F0F2700D6416F /* SoftAndComfortable.png */; };
+		EC9D8F471C6F9F8200D6416F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9D8F461C6F9F8200D6416F /* ContactUsViewController.swift */; };
+		EC9D8F4B1C6FDA5800D6416F /* TextDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9D8F4A1C6FDA5800D6416F /* TextDisplayVC.swift */; };
+		EC9D8F4D1C6FE82F00D6416F /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9D8F4C1C6FE82F00D6416F /* InstructionsVC.swift */; };
+		EC9D8F521C70350300D6416F /* Guideline 1a.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F4E1C70350300D6416F /* Guideline 1a.png */; };
+		EC9D8F531C70350300D6416F /* Guideline 1b.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F4F1C70350300D6416F /* Guideline 1b.png */; };
+		EC9D8F541C70350300D6416F /* GUIDELINE 2A.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F501C70350300D6416F /* GUIDELINE 2A.png */; };
+		EC9D8F551C70350300D6416F /* Guideline 2b.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9D8F511C70350300D6416F /* Guideline 2b.png */; };
+		ECA695851C6C1DF30086D222 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695841C6C1DF30086D222 /* CustomTableViewCell.swift */; };
+		ECA695961C6D03E10086D222 /* LifenestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695951C6D03E10086D222 /* LifenestViewController.swift */; };
+		ECA695991C6D08810086D222 /* LifenestIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695981C6D08810086D222 /* LifenestIconCell.swift */; };
+		ECA6959B1C6D17470086D222 /* LifenestIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA6959A1C6D17470086D222 /* LifenestIconCell.xib */; };
+		ECA695A21C6D39580086D222 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA695A01C6D39580086D222 /* PostCell.xib */; };
+		ECA695A31C6D39580086D222 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695A11C6D39580086D222 /* PostCell.swift */; };
+		ECA695A51C6D8E410086D222 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695A41C6D8E410086D222 /* DataProvider.swift */; };
+		ECA695A71C6DB1E50086D222 /* LifenestNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695A61C6DB1E50086D222 /* LifenestNavViewController.swift */; };
+		ECA695AB1C6E334B0086D222 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA695AA1C6E334B0086D222 /* CustomNavigationBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B520B9EA2FF6C9327835465 /* Pods_LifenestPlagiocephalyAwarenessTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifenestPlagiocephalyAwarenessTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E341B3DD10C6708733A34C2 /* Pods-LifenestPlagiocephalyAwarenessTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifenestPlagiocephalyAwarenessTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifenestPlagiocephalyAwarenessTest/Pods-LifenestPlagiocephalyAwarenessTest.release.xcconfig"; sourceTree = "<group>"; };
+		556584445E95E1D2DE252788 /* Pods-LifenestPlagiocephalyAwarenessTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifenestPlagiocephalyAwarenessTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifenestPlagiocephalyAwarenessTest/Pods-LifenestPlagiocephalyAwarenessTest.debug.xcconfig"; sourceTree = "<group>"; };
+		814C3AC71B69877600E307BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814C3AC81B69877600E307BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81BA81451A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifenestPlagiocephalyAwarenessTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BA816B1A49DB6800E65899 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		81BA816C1A49DB6800E65899 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		81BA816D1A49DB6800E65899 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		81BA816E1A49DB6800E65899 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		81BA81761A49E0D500E65899 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		81BA81781A49E0DB00E65899 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		8F0C1A7F1C68F02800EA8CC5 /* InitialDisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialDisclaimerViewController.swift; sourceTree = "<group>"; };
+		8F0C1A811C6920BB00EA8CC5 /* CranialIndexP2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CranialIndexP2ViewController.swift; sourceTree = "<group>"; };
+		8F0C26531BF3FE1F00B9D224 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		8F0C26551BF4070E00B9D224 /* NormocephalyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormocephalyViewController.swift; sourceTree = "<group>"; };
+		8F1321AF1BF4215200BE7EA4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8F4B9DC91BE6C2BF0031A41E /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		8F4B9DCD1BE6C5CB0031A41E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		8F4B9DCF1BE70E130031A41E /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8F4B9DD11BE813190031A41E /* contactUsWebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactUsWebsiteViewController.swift; sourceTree = "<group>"; };
+		8F4B9DD31BE842250031A41E /* MainInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInstructionsViewController.swift; sourceTree = "<group>"; };
+		8F4B9DDF1BECBBC80031A41E /* CVAIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAIViewController.swift; sourceTree = "<group>"; };
+		8F4B9DE11BED75AF0031A41E /* CVAIPart2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAIPart2ViewController.swift; sourceTree = "<group>"; };
+		8F666B9E1BAE0C4000960DC7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8FB9D3791BF40DB0005CB3F9 /* CustomerInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerInformationViewController.swift; sourceTree = "<group>"; };
+		8FF3F9CD1BC9F6D4005D41AC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8FF3F9CF1BCB53EF005D41AC /* TakePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		8FF3F9D31BCB721C005D41AC /* ImageManipulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManipulator.swift; sourceTree = "<group>"; };
+		8FF3F9D51BCB8ECA005D41AC /* CameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraOverlayView.xib; sourceTree = "<group>"; };
+		8FF3F9D71BCBB74D005D41AC /* CranialIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CranialIndexViewController.swift; sourceTree = "<group>"; };
+		8FF7B3F91C95E050007032DF /* BuyNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNowViewController.swift; sourceTree = "<group>"; };
+		EC60FA4B1C9123F800810FAD /* UncoveredContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UncoveredContentViewController.swift; sourceTree = "<group>"; };
+		EC6A588F1C6B178000C95FF9 /* LegalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegalViewController.swift; path = ../LegalViewController.swift; sourceTree = "<group>"; };
+		EC6FDA991C69D77800DD300C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EC9D8F311C6EAFCE00D6416F /* CustomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVC.swift; sourceTree = "<group>"; };
+		EC9D8F3E1C6F0F2700D6416F /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap.png; sourceTree = "<group>"; };
+		EC9D8F3F1C6F0F2700D6416F /* BreathabilityBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BreathabilityBlue.png; sourceTree = "<group>"; };
+		EC9D8F401C6F0F2700D6416F /* Img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img1.png; sourceTree = "<group>"; };
+		EC9D8F411C6F0F2700D6416F /* SoftAndComfortable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoftAndComfortable.png; sourceTree = "<group>"; };
+		EC9D8F461C6F9F8200D6416F /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		EC9D8F4A1C6FDA5800D6416F /* TextDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDisplayVC.swift; sourceTree = "<group>"; };
+		EC9D8F4C1C6FE82F00D6416F /* InstructionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
+		EC9D8F4E1C70350300D6416F /* Guideline 1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guideline 1a.png"; sourceTree = "<group>"; };
+		EC9D8F4F1C70350300D6416F /* Guideline 1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guideline 1b.png"; sourceTree = "<group>"; };
+		EC9D8F501C70350300D6416F /* GUIDELINE 2A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GUIDELINE 2A.png"; sourceTree = "<group>"; };
+		EC9D8F511C70350300D6416F /* Guideline 2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guideline 2b.png"; sourceTree = "<group>"; };
+		ECA695841C6C1DF30086D222 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		ECA695951C6D03E10086D222 /* LifenestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifenestViewController.swift; sourceTree = "<group>"; };
+		ECA695981C6D08810086D222 /* LifenestIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifenestIconCell.swift; sourceTree = "<group>"; };
+		ECA6959A1C6D17470086D222 /* LifenestIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifenestIconCell.xib; sourceTree = "<group>"; };
+		ECA695A01C6D39580086D222 /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		ECA695A11C6D39580086D222 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		ECA695A41C6D8E410086D222 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		ECA695A61C6DB1E50086D222 /* LifenestNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifenestNavViewController.swift; sourceTree = "<group>"; };
+		ECA695AA1C6E334B0086D222 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BA81421A49DA1800E65899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1321B01BF4215200BE7EA4 /* MessageUI.framework in Frameworks */,
+				81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */,
+				81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */,
+				81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */,
+				81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */,
+				81BA81711A49DB6800E65899 /* Parse.framework in Frameworks */,
+				81BA81701A49DB6800E65899 /* Bolts.framework in Frameworks */,
+				5758EC5123F5BE6338FECF9B /* Pods_LifenestPlagiocephalyAwarenessTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA66D33E8AD27691C162D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				556584445E95E1D2DE252788 /* Pods-LifenestPlagiocephalyAwarenessTest.debug.xcconfig */,
+				2E341B3DD10C6708733A34C2 /* Pods-LifenestPlagiocephalyAwarenessTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		814C3AC51B69877600E307BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				814C3AC81B69877600E307BB /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81BA813C1A49DA1800E65899 = {
+			isa = PBXGroup;
+			children = (
+				81BA81471A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest */,
+				814C3AC51B69877600E307BB /* Resources */,
+				81BA816A1A49DB5600E65899 /* Frameworks */,
+				81BA81461A49DA1800E65899 /* Products */,
+				1EA66D33E8AD27691C162D91 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		81BA81461A49DA1800E65899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BA81451A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BA81471A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F4B9DCD1BE6C5CB0031A41E /* Info.plist */,
+				EC9D8F3E1C6F0F2700D6416F /* Bitmap.png */,
+				EC9D8F3F1C6F0F2700D6416F /* BreathabilityBlue.png */,
+				EC9D8F401C6F0F2700D6416F /* Img1.png */,
+				EC9D8F411C6F0F2700D6416F /* SoftAndComfortable.png */,
+				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
+				ECA695A61C6DB1E50086D222 /* LifenestNavViewController.swift */,
+				8F4B9DC91BE6C2BF0031A41E /* InitialViewController.swift */,
+				ECA695841C6C1DF30086D222 /* CustomTableViewCell.swift */,
+				ECA695A41C6D8E410086D222 /* DataProvider.swift */,
+				EC9D8F4E1C70350300D6416F /* Guideline 1a.png */,
+				EC9D8F4F1C70350300D6416F /* Guideline 1b.png */,
+				EC9D8F501C70350300D6416F /* GUIDELINE 2A.png */,
+				EC9D8F511C70350300D6416F /* Guideline 2b.png */,
+				ECA6959A1C6D17470086D222 /* LifenestIconCell.xib */,
+				814C3AC61B69877600E307BB /* Main.storyboard */,
+				8FF7B3F91C95E050007032DF /* BuyNowViewController.swift */,
+				EC60FA4B1C9123F800810FAD /* UncoveredContentViewController.swift */,
+				EC9D8F311C6EAFCE00D6416F /* CustomVC.swift */,
+				ECA695951C6D03E10086D222 /* LifenestViewController.swift */,
+				ECA695AA1C6E334B0086D222 /* CustomNavigationBar.swift */,
+				ECA695981C6D08810086D222 /* LifenestIconCell.swift */,
+				ECA695A01C6D39580086D222 /* PostCell.xib */,
+				ECA695A11C6D39580086D222 /* PostCell.swift */,
+				EC6A588F1C6B178000C95FF9 /* LegalViewController.swift */,
+				EC6FDA991C69D77800DD300C /* CustomTextField.swift */,
+				8FF3F9CF1BCB53EF005D41AC /* TakePictureViewController.swift */,
+				8F666B9E1BAE0C4000960DC7 /* SignUpViewController.swift */,
+				8FF3F9CD1BC9F6D4005D41AC /* LoginViewController.swift */,
+				8FF3F9D31BCB721C005D41AC /* ImageManipulator.swift */,
+				8FF3F9D51BCB8ECA005D41AC /* CameraOverlayView.xib */,
+				8F4B9DCF1BE70E130031A41E /* StartViewController.swift */,
+				8F4B9DD11BE813190031A41E /* contactUsWebsiteViewController.swift */,
+				EC9D8F461C6F9F8200D6416F /* ContactUsViewController.swift */,
+				8F4B9DD31BE842250031A41E /* MainInstructionsViewController.swift */,
+				EC9D8F4C1C6FE82F00D6416F /* InstructionsVC.swift */,
+				EC9D8F4A1C6FDA5800D6416F /* TextDisplayVC.swift */,
+				8F4B9DDF1BECBBC80031A41E /* CVAIViewController.swift */,
+				8F4B9DE11BED75AF0031A41E /* CVAIPart2ViewController.swift */,
+				8F0C26531BF3FE1F00B9D224 /* DisclaimerViewController.swift */,
+				8F0C26551BF4070E00B9D224 /* NormocephalyViewController.swift */,
+				8FB9D3791BF40DB0005CB3F9 /* CustomerInformationViewController.swift */,
+				8F0C1A7F1C68F02800EA8CC5 /* InitialDisclaimerViewController.swift */,
+				8FF3F9D71BCBB74D005D41AC /* CranialIndexViewController.swift */,
+				8F0C1A811C6920BB00EA8CC5 /* CranialIndexP2ViewController.swift */,
+			);
+			name = LifenestPlagiocephalyAwarenessTest;
+			path = ParseStarterProject;
+			sourceTree = "<group>";
+		};
+		81BA816A1A49DB5600E65899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1321AF1BF4215200BE7EA4 /* MessageUI.framework */,
+				81BA816B1A49DB6800E65899 /* Bolts.framework */,
+				81BA816C1A49DB6800E65899 /* Parse.framework */,
+				81BA816D1A49DB6800E65899 /* ParseCrashReporting.framework */,
+				81BA816E1A49DB6800E65899 /* ParseFacebookUtils.framework */,
+				81BA81801A49E10C00E65899 /* ParseUI.framework */,
+				81BA81751A49E0C500E65899 /* System Frameworks */,
+				2B520B9EA2FF6C9327835465 /* Pods_LifenestPlagiocephalyAwarenessTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81BA81751A49E0C500E65899 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */,
+				81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */,
+				81BA81781A49E0DB00E65899 /* AudioToolbox.framework */,
+				81BA81761A49E0D500E65899 /* libsqlite3.dylib */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BA81441A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "LifenestPlagiocephalyAwarenessTest" */;
+			buildPhases = (
+				C60FABC2D423EB5B9E6EA361 /* Check Pods Manifest.lock */,
+				81BA81411A49DA1800E65899 /* Sources */,
+				81BA81421A49DA1800E65899 /* Frameworks */,
+				81BA81431A49DA1800E65899 /* Resources */,
+				81CC85E11A49F6D40076DE19 /* Upload Symbol Files */,
+				EEF2B4BDDBB427E03CA8BE2A /* Embed Pods Frameworks */,
+				DE6F4FC3FD63E2CAB57C5F20 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifenestPlagiocephalyAwarenessTest;
+			productName = ParseStarterProject;
+			productReference = 81BA81451A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BA813D1A49DA1800E65899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Parse;
+				TargetAttributes = {
+					81BA81441A49DA1800E65899 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2U2YTVW5UG;
+					};
+				};
+			};
+			buildConfigurationList = 81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "LifenestPlagiocephalyAwarenessTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BA813C1A49DA1800E65899;
+			productRefGroup = 81BA81461A49DA1800E65899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BA81441A49DA1800E65899 /* LifenestPlagiocephalyAwarenessTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BA81431A49DA1800E65899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9D8F451C6F0F2700D6416F /* SoftAndComfortable.png in Resources */,
+				EC9D8F441C6F0F2700D6416F /* Img1.png in Resources */,
+				EC9D8F541C70350300D6416F /* GUIDELINE 2A.png in Resources */,
+				EC9D8F521C70350300D6416F /* Guideline 1a.png in Resources */,
+				8FF3F9D61BCB8ECA005D41AC /* CameraOverlayView.xib in Resources */,
+				ECA695A21C6D39580086D222 /* PostCell.xib in Resources */,
+				EC9D8F551C70350300D6416F /* Guideline 2b.png in Resources */,
+				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
+				EC9D8F431C6F0F2700D6416F /* BreathabilityBlue.png in Resources */,
+				EC9D8F531C70350300D6416F /* Guideline 1b.png in Resources */,
+				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
+				ECA6959B1C6D17470086D222 /* LifenestIconCell.xib in Resources */,
+				EC9D8F421C6F0F2700D6416F /* Bitmap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81CC85E11A49F6D40076DE19 /* Upload Symbol Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Symbol Files";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script will upload symbol files for your application,\n# so all your crash reports are going to be symbolicated\n\n# Important!\n# Before using the script, please initialize CloudCode folder and replace <path_to_cloudcode_folder> with the path to it\n#\n# Read more on Parse.com - https://parse.com/apps/quickstart#analytics/crashreporting/ios/\n############################################################\n\n\n# export PATH=/usr/local/bin:$PATH\n# cd <path_to_cloudcode_folder>\n\n# parse symbols -p \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+		};
+		C60FABC2D423EB5B9E6EA361 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6F4FC3FD63E2CAB57C5F20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifenestPlagiocephalyAwarenessTest/Pods-LifenestPlagiocephalyAwarenessTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF2B4BDDBB427E03CA8BE2A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifenestPlagiocephalyAwarenessTest/Pods-LifenestPlagiocephalyAwarenessTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BA81411A49DA1800E65899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6FDA9A1C69D77800DD300C /* CustomTextField.swift in Sources */,
+				8FF3F9D81BCBB74D005D41AC /* CranialIndexViewController.swift in Sources */,
+				8FF3F9D01BCB53EF005D41AC /* TakePictureViewController.swift in Sources */,
+				8F4B9DE21BED75AF0031A41E /* CVAIPart2ViewController.swift in Sources */,
+				EC9D8F4B1C6FDA5800D6416F /* TextDisplayVC.swift in Sources */,
+				8FF3F9D41BCB721C005D41AC /* ImageManipulator.swift in Sources */,
+				8F0C1A801C68F02800EA8CC5 /* InitialDisclaimerViewController.swift in Sources */,
+				ECA695991C6D08810086D222 /* LifenestIconCell.swift in Sources */,
+				ECA695851C6C1DF30086D222 /* CustomTableViewCell.swift in Sources */,
+				8F666B9F1BAE0C4000960DC7 /* SignUpViewController.swift in Sources */,
+				8F0C26561BF4070E00B9D224 /* NormocephalyViewController.swift in Sources */,
+				8F0C1A821C6920BB00EA8CC5 /* CranialIndexP2ViewController.swift in Sources */,
+				ECA695A71C6DB1E50086D222 /* LifenestNavViewController.swift in Sources */,
+				ECA695A51C6D8E410086D222 /* DataProvider.swift in Sources */,
+				8F4B9DD01BE70E130031A41E /* StartViewController.swift in Sources */,
+				ECA695961C6D03E10086D222 /* LifenestViewController.swift in Sources */,
+				8FF3F9CE1BC9F6D4005D41AC /* LoginViewController.swift in Sources */,
+				EC9D8F4D1C6FE82F00D6416F /* InstructionsVC.swift in Sources */,
+				8FB9D37A1BF40DB0005CB3F9 /* CustomerInformationViewController.swift in Sources */,
+				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				EC60FA4C1C9123F800810FAD /* UncoveredContentViewController.swift in Sources */,
+				ECA695AB1C6E334B0086D222 /* CustomNavigationBar.swift in Sources */,
+				8F0C26541BF3FE1F00B9D224 /* DisclaimerViewController.swift in Sources */,
+				ECA695A31C6D39580086D222 /* PostCell.swift in Sources */,
+				8FF7B3FA1C95E050007032DF /* BuyNowViewController.swift in Sources */,
+				8F4B9DCA1BE6C2BF0031A41E /* InitialViewController.swift in Sources */,
+				8F4B9DE01BECBBC80031A41E /* CVAIViewController.swift in Sources */,
+				EC6A58901C6B178000C95FF9 /* LegalViewController.swift in Sources */,
+				EC9D8F471C6F9F8200D6416F /* ContactUsViewController.swift in Sources */,
+				EC9D8F321C6EAFCE00D6416F /* CustomVC.swift in Sources */,
+				8F4B9DD41BE842250031A41E /* MainInstructionsViewController.swift in Sources */,
+				8F4B9DD21BE813190031A41E /* contactUsWebsiteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		814C3AC61B69877600E307BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814C3AC71B69877600E307BB /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BA81621A49DA1800E65899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BA81631A49DA1800E65899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BA81651A49DA1800E65899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556584445E95E1D2DE252788 /* Pods-LifenestPlagiocephalyAwarenessTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parse.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LifenestPlagiocephalyAwarenessTest;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BA81661A49DA1800E65899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E341B3DD10C6708733A34C2 /* Pods-LifenestPlagiocephalyAwarenessTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parse.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LifenestPlagiocephalyAwarenessTest;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "LifenestPlagiocephalyAwarenessTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BA81621A49DA1800E65899 /* Debug */,
+				81BA81631A49DA1800E65899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "LifenestPlagiocephalyAwarenessTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BA81651A49DA1800E65899 /* Debug */,
+				81BA81661A49DA1800E65899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BA813D1A49DA1800E65899 /* Project object */;
+}

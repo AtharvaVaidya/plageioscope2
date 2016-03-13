@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FA1BD68D-9D1B-4F50-A8C0-405C684693FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParseStarterProject-Swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>79C3A2F79CE59F56D2262A9CFC2E6498C5CF7CAE</key>
+		<string>https://github.com/anirudhNarayan/MakeSchoolNotes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LifenestPlagiocephalyAwarnessTest/ParseStarterProject-Swift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>79C3A2F79CE59F56D2262A9CFC2E6498C5CF7CAE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anirudhNarayan/MakeSchoolNotes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>79C3A2F79CE59F56D2262A9CFC2E6498C5CF7CAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>79C3A2F79CE59F56D2262A9CFC2E6498C5CF7CAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+* {
+  padding: 0;
+  margin: 0;
+}
+.center {
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+figure {
+    display: block;
+    border: 1px dotted gray;
+  	margin:auto;
+}
+figure img {
+
+      max-width: 100%;
+  		max-height: 100%;
+}
+</style>
+		<meta charset="utf-8">
+		<title>Images</title>
+		<link rel="stylesheet" link="style.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+function set_body_height()
+{
+    var wh = $(window).height();
+    $('body').attr('style', 'height:' + wh + 'px;');
+}
+$(document).ready(function() {
+    set_body_height();
+    $(window).bind('resize', function() { set_body_height(); });
+});
+</script>
+	</head>
+
+	<body>
+		<p>The UBIMED head shape screening test is a simple way to learn about your baby’s head shape and make the right decision with your pediatrician. </p>
+
+		<p>A baby’s skull is very malleable during the first months of life. It is also fast growing as the brain growth pushes the skull bones. The normal baby’s head shape is not a ball but is egg shaped explaining that babies don’t usually sleep with the head strait but more often inclined on one side.</p>
+
+		<figure>
+		<img id = "the_pic" class="center" src="Normocephaly 1.jpg/"/>
+		<figcaption> 1) NORMAL</figcaption>
+	</figure>
+	<figure>
+		<img id = "the_pic" class="center" src="Plagiocephaly 1.jpg"/>
+		<figcaption> 2) PLAGIOCEPHALY</figcaption>
+	</figure>
+	<figure>
+		<img id = "the_pic" class="center" src="Brachycephaly 1.jpg"/>
+		<figcaption> 3) BRACHYCEPHALY</figcaption>
+	</figure>
+	<figure>
+		<img id = "the_pic" class="center" src="Dolichocephaly 1.jpg"/>
+		<figcaption> 4) DOLICHOCEPHALY</figcaption>
+	</figure>
+
+
+		<p>According with a recent medical study, almost one baby one two has a flat head at 2 months of age due to the back sleeping position on firm mattresses for SIDS prevention, car seats, bouncers, strollers, etc.</p>
+
+<p>The flat area is usually located on a side of the occiput and frequently centered by a bold spot. </p>
+
+<p>This screening test will compare reported measurements with the US standards. </p>
+
+<p>Head shape will be measured using a digital photographic caliper.</p>
+
+<p><ol>To improve test result accuracy:
+<li>- The lens of your camera must be positioned approximately 4 inches above the center of your baby’s head. </li>
+<li>- Your baby’s nose should be visible on the top of the photo</li></ol></p>
+
+<p ><b>At any time, you may return to this page by tapping on the “Instructions” button.</b></p>
+
+	</body>
+
+	</html>

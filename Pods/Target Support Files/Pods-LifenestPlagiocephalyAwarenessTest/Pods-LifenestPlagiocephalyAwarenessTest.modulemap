@@ -1,0 +1,6 @@
+framework module Pods_LifenestPlagiocephalyAwarenessTest {
+  umbrella header "Pods-LifenestPlagiocephalyAwarenessTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
