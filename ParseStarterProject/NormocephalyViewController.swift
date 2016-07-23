@@ -135,7 +135,7 @@ class NormocephalyViewController: UIViewController, MFMailComposeViewControllerD
         
         mailComposerVC.setToRecipients(["EnterYourEmailAddressHere"])
         mailComposerVC.setSubject("Plagioscope - Results")
-        mailComposerVC.setMessageBody("Hi!\n\nHere is the result from Ubimed's Plagioscope App.\n\n\(symptom).", isHTML: false)
+        mailComposerVC.setMessageBody("Thank you for using the Lifenest Plagioscope App, developed by Ubimed. Ubimed created the Lifenest low pressure and breathable baby mattress to help prevent Flat Head syndrome (positional plagiocephaly). \n\n The data provided are similar to those observed in cases of: \(symptom). \n\nRecommended Next Steps: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\nYou may ask him/her about how Lifenest low pressure mattress may help.\nYou can find more information on Lifenest at www.ubimed.com\n\nSincerely,\n\nUbimed Inc.", isHTML: false)
         
         return mailComposerVC
     }

@@ -52,7 +52,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func login(sender: AnyObject) {
-        if username.text != nil && password.text != nil {
+        
+        if username.text != nil && password.text != nil && isValidEmail(username.text!) == true {
             PFUser.logInWithUsernameInBackground(username.text!, password: password.text!) {
                 (user: PFUser?, error: NSError?) -> Void in
                 if user != nil {
@@ -61,8 +62,18 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 } else {
                     // The login failed. Check error to see why.
                     print("login failed")
+                    let alertController = UIAlertController(title: "Incorrect Email or Password", message: "Please enter a valid email and password", preferredStyle: .Alert)
+                    let defaultAction = UIAlertAction(title: "Got it!", style: .Default, handler: nil)
+                    alertController.addAction(defaultAction)
+                    self.presentViewController(alertController, animated: true, completion: nil)
                 }
             }
+        }
+        else {
+            let alertController = UIAlertController(title: "Email or Password left blank", message: "Please enter a valid email and password", preferredStyle: .Alert)
+            let defaultAction = UIAlertAction(title: "Got it!", style: .Default, handler: nil)
+            alertController.addAction(defaultAction)
+            presentViewController(alertController, animated: true, completion: nil)
         }
     }
 
@@ -97,5 +108,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func isValidEmail(testStr:String) -> Bool {
+        // println("validate calendar: \(testStr)")
+        let emailRegEx = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+        
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailTest.evaluateWithObject(testStr)
+        
+        
+    }
 
 }

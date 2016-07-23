@@ -126,7 +126,7 @@ class DisclaimerViewController: UIViewController {
         super.viewDidLoad()
         print("disc CVAI \(self.CVAI)")
         print("disc CranialIndex \(self.CranialIndex)")
-        self.disclaimerLabel.text = "Accuracy may vary.\nThe accuraccy of Plagioscope App depends of several factors:\n-The way the picture was taken.\n-The positioning of the measurement template.\nHairs may modify the result. For more accurate measurements, Pediatricians use a caliper.\nDuring the first five months of life, the skull is very malleable and the head shape may change quickly. Plagioscope App results may vary over time.\n\nAny results must be confirmed by a health care professional using a calibrated medical device."
+        self.disclaimerLabel.text = "Accuracy may vary.\nThe accuraccy of Plagioscope App depends of several factors:\n-The way the picture was taken.\n-The positioning of the measurement template.\nHairs may modify the result. For more accurate measurements, Pediatricians use a caliper.\nDuring the first five months of life, the skull is very malleable and the head shape may change quickly. Plagioscope App results may vary over time.\n\nThis App has been developed to increase Plagiocephaly awareness and is not a medical device. Any results must be confirmed by a health care professional using a calibrated medical device."
         // Do any additional setup after loading the view.
         
         let c = Colors()
@@ -151,36 +151,36 @@ class DisclaimerViewController: UIViewController {
         
         if (symptom == "Normocephaly")
         {
-            resultScene.symtopmDetailsLocal = "All symmetry within normal limits.\n\nRecommended next step: baby's head is very malleable during the first few months of life. We recommend repeating this test on a regular basis.\n\nUbimed recommends using the Lifenest low pressure mattress to prevent positional Plagiocephaly (more information on www.ubimed.com)"
+            resultScene.symtopmDetailsLocal = "Your baby's head shape seems normal!\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Dolichocephaly")
         {
-            resultScene.symtopmDetailsLocal = "A condition where the head is longer than expected, relative to its width.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "A condition where the head is longer than expected, relative to its width.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Mild Brachycephaly")
         {
-            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Moderate Brachycephaly")
         {
-            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Severe Brachycephaly")
         {
-            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Dolichocephaly and Mild Plagiocephaly"||symptom == "Dolichocephaly and Moderate Plagiocephaly" || symptom == "Dolichocephaly and Severe Plagiocephaly")
         {
-            resultScene.symtopmDetailsLocal = "Dolichocephaly is a condition where the head is longer than expected, relative to its width.\n\nPlagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Dolichocephaly is a condition where the head is longer than expected, relative to its width.\n\nPlagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         if (symptom == "Mild Plagiocephaly"||symptom == "Moderate Plagiocephaly"||symptom == "Severe Plagiocephaly")
         {
-            resultScene.symtopmDetailsLocal = "Plagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Plagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
         
         if (symptom == "Mild Brachycephaly and Mild Plagiocephaly" || symptom == "Moderate Brachycephaly and Mild Plagiocephaly"||symptom == "Severe Brachycephaly and Mild Plagiocephaly"||symptom == "Mild Brachycephaly and Moderate Plagiocephaly"||symptom == "Moderate Brachycephaly and Moderate Plagiocephaly"||symptom == "Severe Brachycephaly and Moderate Plagiocephaly"||symptom == "Mild Brachycephaly and Severe Plagiocephaly"||symptom == "Moderate Brachycephaly and Severe Plagiocephaly"||symptom == "Severe Brachycephaly and Severe Plagiocephaly")
         {
-            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nPlagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult without delay your pediatrician for the adapted treatment. Ask him about how the Lifenest low pressure hammock mattress and physiotherapy may help (more information at www.ubimed.com)."
+            resultScene.symtopmDetailsLocal = "Brachycephaly is a condition where the head is wider than would be expected, relative to its length.\n\nPlagiocephaly is the flattening of the head.\n\nRecommended next step: Please consult your clinical practitioner. He/She will measure your baby's head indexes with a medical device and will be able to make a proper diagnosis; and if needed, prescribe the adapted treatment.\n\nYou may ask him/her about how Lifenest low pressure mattress may help.\n\nYou can find more information on Lifenest at www.ubimed.com."
         }
     }
     

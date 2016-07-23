@@ -31,7 +31,7 @@ class SignUpViewController: UncoveredContentViewController
         newUser["userType"] = "Parent"
         if (usernameTextField.text == confirmEmailTextField.text){
         
-        if self.usernameTextField.text != nil && self.passwordTextField.text != nil {
+        if self.usernameTextField.text != nil && self.passwordTextField.text != nil && isValidEmail(usernameTextField.text!) == true {
         newUser.signUpInBackgroundWithBlock {
             (succeeded: Bool, error: NSError?) -> Void in
             if let error = error {
@@ -47,7 +47,7 @@ class SignUpViewController: UncoveredContentViewController
       }
     }
         else {
-            let alertController = UIAlertController(title: "Emails don't match!", message: "Please enter email again", preferredStyle: .Alert)
+            let alertController = UIAlertController(title: "Invalid Email and Password entry", message: "Please enter a valid email and password again", preferredStyle: .Alert)
             let defaultAction = UIAlertAction(title: "Got it!", style: .Default, handler: nil)
             alertController.addAction(defaultAction)
             presentViewController(alertController, animated: true, completion: nil)
@@ -111,4 +111,13 @@ class SignUpViewController: UncoveredContentViewController
         lifenestLogo.hidden = false
     }
 
+    func isValidEmail(testStr:String) -> Bool {
+        // println("validate calendar: \(testStr)")
+        let emailRegEx = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+        
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailTest.evaluateWithObject(testStr)
+        
+        
+    }
 }

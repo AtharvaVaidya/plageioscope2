@@ -1400,7 +1400,7 @@ Telephone: 310-556-0624</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="i01-iS-t96">
                                 <rect key="frame" x="20" y="113" width="560" height="408"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Introduction
+                                <mutableString key="text">Introduction
 This Privacy Policy discloses the privacy practices for the Ubimed website (collectively, the “Ubimed” or the “Website” located at www.Ubimed.com). Ubimed Inc., a California corporation, owns and operates Ubimed (referred to as “us”, “we” and “our”) and is committed to protecting your privacy online. Please read the following to learn what information we collect from you (the “User” or the “End User”) and how we use that information. If you have any questions about our privacy policy, please email us.
 Please read this Privacy Policy carefully. By accessing or using our website, you acknowledge that you have read, understood and agreed to be bound to all the terms of this privacy policy and our website’s terms of use. If you do not agree to these terms, exit this page and do not access or use the website.
 The Types of Information that We Collect
@@ -1476,7 +1476,7 @@ Contacting Us
 If you have any questions about this Privacy Policy please contact Ubimed at:
 Email: customer-service@Ubimed.com
 Telephone: 310-556-0624 
-</string>
+</mutableString>
                                 <color key="textColor" red="0.26274509800000001" green="0.45098039220000002" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
