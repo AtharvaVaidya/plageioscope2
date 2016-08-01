@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -988,6 +988,7 @@ Telephone: 310-556-0624</string>
                             <constraint firstAttribute="trailing" secondItem="0sO-B5-lPt" secondAttribute="trailing" id="TLe-lq-BKl"/>
                             <constraint firstItem="5XY-Hw-bIw" firstAttribute="bottom" secondItem="1Cb-Gd-GZC" secondAttribute="top" id="VHa-eR-6uT"/>
                             <constraint firstItem="5XY-Hw-bIw" firstAttribute="top" secondItem="0sO-B5-lPt" secondAttribute="bottom" id="fgl-A1-QGn"/>
+                            <constraint firstItem="0sO-B5-lPt" firstAttribute="height" secondItem="P7p-yh-vIO" secondAttribute="height" id="jah-Xl-HmV"/>
                             <constraint firstItem="0sO-B5-lPt" firstAttribute="leading" secondItem="HT2-FX-JkN" secondAttribute="leading" id="pEl-wA-QNP"/>
                             <constraint firstItem="0sO-B5-lPt" firstAttribute="centerY" secondItem="P7p-yh-vIO" secondAttribute="centerY" id="w41-Y6-54b"/>
                         </constraints>
@@ -1020,7 +1021,7 @@ Telephone: 310-556-0624</string>
                                 <rect key="frame" x="20" y="8" width="335" height="520"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZsR-u4-DXx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZsR-u4-DXx">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="536"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8r-ut-KrL">
@@ -1045,6 +1046,7 @@ Telephone: 310-556-0624</string>
                             <constraint firstItem="uRA-XL-Gc6" firstAttribute="top" secondItem="WBH-Em-D6o" secondAttribute="bottom" constant="8" id="Gbq-bl-Map"/>
                             <constraint firstItem="D8r-ut-KrL" firstAttribute="bottom" secondItem="xCc-hi-4QF" secondAttribute="top" id="RCc-bc-vcK"/>
                             <constraint firstItem="D8r-ut-KrL" firstAttribute="leading" secondItem="ZO9-RM-FMd" secondAttribute="leading" id="kpb-me-2zf"/>
+                            <constraint firstItem="ZsR-u4-DXx" firstAttribute="height" secondItem="uRA-XL-Gc6" secondAttribute="height" id="o9i-uL-Vno"/>
                             <constraint firstAttribute="trailing" secondItem="D8r-ut-KrL" secondAttribute="trailing" id="sZb-Qg-cJC"/>
                         </constraints>
                     </view>
@@ -1164,13 +1166,13 @@ Telephone: 310-556-0624</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr6-b6-BuS">
-                                <rect key="frame" x="123" y="565" width="128" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr6-b6-BuS">
+                                <rect key="frame" x="123" y="561" width="128" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="25y-SB-Vp6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                <state key="normal" title="Test Again">
+                                <state key="normal" title="Home">
                                     <color key="titleColor" red="0.26274509800000001" green="0.45098039220000002" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -1400,7 +1402,7 @@ Telephone: 310-556-0624</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="i01-iS-t96">
                                 <rect key="frame" x="20" y="113" width="560" height="408"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Introduction
+                                <mutableString key="text">Disclaimer: This App has been developed to increase Plagiocephaly awareness and is not a medical device. Before any result must be confirmed by a healthcare professional using a calibrated medical device.   Introduction
 This Privacy Policy discloses the privacy practices for the Ubimed website (collectively, the “Ubimed” or the “Website” located at www.Ubimed.com). Ubimed Inc., a California corporation, owns and operates Ubimed (referred to as “us”, “we” and “our”) and is committed to protecting your privacy online. Please read the following to learn what information we collect from you (the “User” or the “End User”) and how we use that information. If you have any questions about our privacy policy, please email us.
 Please read this Privacy Policy carefully. By accessing or using our website, you acknowledge that you have read, understood and agreed to be bound to all the terms of this privacy policy and our website’s terms of use. If you do not agree to these terms, exit this page and do not access or use the website.
 The Types of Information that We Collect
@@ -2159,6 +2161,7 @@ Telephone: 310-556-0624
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Yml-s4-W7G" firstAttribute="top" secondItem="ZjA-TA-Fg9" secondAttribute="bottom" id="26h-oR-4Rm"/>
+                            <constraint firstItem="ZjA-TA-Fg9" firstAttribute="height" secondItem="Rtj-ww-6Wk" secondAttribute="height" id="4bV-uk-bc1"/>
                             <constraint firstItem="Yml-s4-W7G" firstAttribute="centerX" secondItem="Rtj-ww-6Wk" secondAttribute="centerX" id="6no-fb-Ylo"/>
                             <constraint firstItem="Rtj-ww-6Wk" firstAttribute="leading" secondItem="anX-i6-9wl" secondAttribute="leadingMargin" id="81c-pX-Svu"/>
                             <constraint firstItem="ZjA-TA-Fg9" firstAttribute="leading" secondItem="anX-i6-9wl" secondAttribute="leading" id="BEJ-Ln-Tyg"/>
@@ -2233,6 +2236,7 @@ Telephone: 310-556-0624
                             <constraint firstItem="qgL-jT-Moz" firstAttribute="leading" secondItem="jrF-ID-c2q" secondAttribute="leading" id="rhb-sm-cRF"/>
                             <constraint firstItem="jrF-ID-c2q" firstAttribute="centerX" secondItem="ACk-kx-6vB" secondAttribute="centerX" id="twq-XP-KxR"/>
                             <constraint firstItem="ACk-kx-6vB" firstAttribute="top" secondItem="90m-Zs-0Bl" secondAttribute="bottom" constant="8" id="uyL-Ye-ypA"/>
+                            <constraint firstItem="qgL-jT-Moz" firstAttribute="height" secondItem="ACk-kx-6vB" secondAttribute="height" id="vmy-jC-NJY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4xK-vI-xB9"/>

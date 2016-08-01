@@ -367,6 +367,9 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
+					6FADBBD3E49E42B10F5BE7F869EE297C = {
+						DevelopmentTeam = 2U2YTVW5UG;
+					};
 					A4010BE54C7E0CBAA44C70FB8DC1B0D5 = {
 						DevelopmentTeam = 2U2YTVW5UG;
 					};
@@ -519,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E51E85D01EB7316326BDE0AB8AE1EF0 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -534,6 +538,7 @@
 				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TextFieldEffects;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -578,6 +583,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E51E85D01EB7316326BDE0AB8AE1EF0 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -593,6 +599,7 @@
 				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TextFieldEffects;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
